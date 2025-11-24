@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
 # =============================================================================
 # STEP 1: LOAD DATASET
 # =============================================================================
-file_path = "smart_grid_dataset (1).csv"   # change if filename differs
+file_path = "smart_grid_dataset.csv"   # change if filename differs
 df = pd.read_csv(file_path)
 
 # Fix column encoding issues and trim names

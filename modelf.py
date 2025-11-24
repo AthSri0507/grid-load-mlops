@@ -18,7 +18,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 # =====================================================================
 # STEP 2: Load and Inspect Dataset
 # =====================================================================
-file_path = "smart_grid_dataset (1).csv"  # update name if needed
+file_path = "smart_grid_dataset.csv"  # update name if needed
 df = pd.read_csv(file_path)
 
 print("Original Columns:")
