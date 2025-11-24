@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / logs
+.ipynb_checkpoints/
+logs/
+
+# VS Code
+.vscode/
+
+# DVC cache folders (optional)
+.dvc/tmp/
+.dvc/cache/
+
+# MLflow local runs
+mlruns/
+
+# OS generated files
+*.DS_Store
+Thumbs.db
+
+# Build folders
+build/
+dist/
+
+# Models / artifacts (handled by DVC or MLflow)
+*.h5
+*.json
+*.joblib
+*.pkl

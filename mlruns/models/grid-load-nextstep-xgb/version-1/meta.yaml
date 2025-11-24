@@ -1,0 +1,15 @@
+creation_timestamp: 1762798645993
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1762798645993
+model_id: m-e4c2555533644ca4b61464c27dfcd522
+name: grid-load-nextstep-xgb
+run_id: 5e5c9ea87f8744d79aa5a6e339ce4a66
+run_link: null
+source: models:/m-e4c2555533644ca4b61464c27dfcd522
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Atharva%20Srivastava/OneDrive/Desktop/MLops-EL/mlruns/885379313402111071/models/m-e4c2555533644ca4b61464c27dfcd522/artifacts
+user_id: null
+version: 1

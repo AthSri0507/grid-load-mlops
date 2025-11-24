@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Atharva%20Srivastava/OneDrive/Desktop/MLops-EL/mlruns/885379313402111071/models/m-e4c2555533644ca4b61464c27dfcd522/artifacts
+creation_timestamp: 1762798639405
+experiment_id: '885379313402111071'
+last_updated_timestamp: 1762798645959
+model_id: m-e4c2555533644ca4b61464c27dfcd522
+model_type: null
+name: xgb_model_mlflow
+source_run_id: 5e5c9ea87f8744d79aa5a6e339ce4a66
+status: 2
+status_message: null

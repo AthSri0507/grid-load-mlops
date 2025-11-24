@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/Atharva%20Srivastava/OneDrive/Desktop/MLops-EL/mlruns/885379313402111071/models/m-e4c2555533644ca4b61464c27dfcd522/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.11
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.1.1
+mlflow_version: 3.6.0
+model_id: m-e4c2555533644ca4b61464c27dfcd522
+model_size_bytes: 7103336
+model_uuid: m-e4c2555533644ca4b61464c27dfcd522
+prompts: null
+run_id: 5e5c9ea87f8744d79aa5a6e339ce4a66
+utc_time_created: '2025-11-10 18:17:19.513760'

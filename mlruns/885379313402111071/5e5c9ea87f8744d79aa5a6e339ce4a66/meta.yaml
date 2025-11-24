@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Atharva%20Srivastava/OneDrive/Desktop/MLops-EL/mlruns/885379313402111071/5e5c9ea87f8744d79aa5a6e339ce4a66/artifacts
+end_time: 1762798646042
+entry_point_name: ''
+experiment_id: '885379313402111071'
+lifecycle_stage: active
+run_id: 5e5c9ea87f8744d79aa5a6e339ce4a66
+run_name: nextstep-forecast
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762798639187
+status: 3
+tags: []
+user_id: Atharva Srivastava
