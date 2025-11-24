@@ -1,10 +1,10 @@
 stages:
   train:
-    cmd: python train_nextstep_load3.py --csv "/mnt/data/smart_grid_dataset (1).csv" --plots --mlflow
+    cmd: python train_nextstep_load3.py --csv "smart_grid_dataset.csv" --plots --mlflow
     deps:
       - train_nextstep_load3.py
       - requirements.txt
-      - "/mnt/data/smart_grid_dataset (1).csv"
+      - "smart_grid_dataset.csv"
     outs:
       - energy_load_next/metrics_real.csv
       - energy_load_next/preds_xgb.csv
@@ -16,12 +16,11 @@ stages:
       - energy_load_next/models/xgb_model.json
 
 metrics:
-  - path: energy_load_next/metrics_real.csv
-    cache: false
-    persist: true
+  - energy_load_next/metrics_real.csv
 
 plots:
   - energy_load_next/plot_xgb.png
   - energy_load_next/plot_lstm.png
   - energy_load_next/plot_gru.png
+
 
