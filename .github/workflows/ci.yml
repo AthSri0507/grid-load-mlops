@@ -33,9 +33,7 @@ jobs:
       run: |
         pip install dvc
 
-    - name: Pull dataset with DVC
-      run: |
-        dvc pull
+    
 
     - name: Run training pipeline
       run: |
